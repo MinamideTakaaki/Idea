@@ -2,6 +2,7 @@
   <div>
     <Top />
     <Menu />
+    <Curtains />
   </div>
 </template>
 
@@ -12,6 +13,12 @@ export default {
 </script>
 
 <style>
+  :root {
+    --color1: wheat;
+    --color2: midnightblue;
+    --minh: 90vh;
+  }
+
   html, body {
     height: 100%;
     width: 100%;
